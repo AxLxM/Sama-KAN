@@ -1,0 +1,26 @@
+﻿        ArrayList<ExampleItem0> EX = new ArrayList<>();
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "آریا لطفی مقدم"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "محمد رضا نصیری"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "محمد خدامی"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "سجاد طوماری"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "آرمین شالچیان"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "علی ..."));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "سارا فتحی پوردیمان"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "زهرا ناصریان"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "سما ییازی"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "محدثه سروری"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "آرمان ویشلقی"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "متین صالحی"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "علی روحانی"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "محمد ..."));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "سما کن"));
+        EX.add(new ExampleItem0(R.drawable.img, R.drawable.ic_late, "Any"));
+
+
+        mRecyclerView = findViewById(R.id.rcv);
+        mRecyclerView.setHasFixedSize(true);
+        mLayoutManager = new LinearLayoutManager(this);
+        mAdapter = new ExampleAdapter0(EX);
+
+        mRecyclerView.setLayoutManager(mLayoutManager);
+        mRecyclerView.setAdapter(mAdapter);

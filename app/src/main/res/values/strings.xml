@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">سما کن</string>
+    <string name="tf">حضور و غیاب</string>
+    <string name="todo">TODO</string>
+    <string name="yer_moh">سال و ماه</string>
+    <string name="day">روز</string>
+    <string name="user">نام و نام خانوادگی</string>
+</resources>

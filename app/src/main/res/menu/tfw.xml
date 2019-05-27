@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/false_tfw"
+        android:icon="@drawable/ic_absent"
+        android:title="" />
+    <item android:id="@+id/true_tfw"
+        android:icon="@drawable/ic_present"
+        android:title="" />
+    <item android:id="@+id/warning_tfw"
+        android:icon="@drawable/ic_late"
+        android:title="" />
+
+</menu>
